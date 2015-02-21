@@ -1,6 +1,20 @@
+$primary-color: #2980b9;
+
 .intro-message{
 	
 	.input-group-addon {
 		top: 0px;
+	}
+}
+
+#landing-page-submit{
+	
+	background: white;
+
+	&:hover{
+		background: $primary-color;
+		border: 1px solid $primary-color;
+		color: white;
+		cursor: pointer;
 	}
 }
